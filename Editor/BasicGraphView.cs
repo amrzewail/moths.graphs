@@ -8,7 +8,7 @@ using UnityEngine.UIElements;
 using UnityEngine.UIElements.Experimental;
 using Object = UnityEngine.Object;
 
-namespace Scripts.Graphs.Editor
+namespace Moths.Graphs.Editor
 {
     public class BasicGraphView: GraphView
     {

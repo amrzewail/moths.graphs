@@ -2,7 +2,7 @@
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-namespace Scripts.Graphs.Editor
+namespace Moths.Graphs.Editor
 {
     [System.Serializable]
     public abstract class BasicNode : Node

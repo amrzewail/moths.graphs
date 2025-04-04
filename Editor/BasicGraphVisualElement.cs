@@ -6,7 +6,7 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Scripts.Graphs.Editor
+namespace Moths.Graphs.Editor
 {
     public class BasicGraphVisualElement : VisualElement
     {
