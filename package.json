@@ -1,0 +1,19 @@
+{
+  "name": "com.moths.graphs",
+  "displayName": "Moths Graphs",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "keywords": [
+    "moths",
+    "graphs"
+  ],
+  "author": {
+    "name": "Amr Zewail",
+    "email": "amrzewail@hotmail.com",
+    "url": "https://github.com/amrzewail"
+  },
+  "changelog": {
+    "1.0.0": "- Initial release"
+  },
+  "license": "MIT"
+}
