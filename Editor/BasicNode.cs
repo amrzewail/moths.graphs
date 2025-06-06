@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿using System;
+using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
@@ -28,6 +29,13 @@ namespace Moths.Graphs.Editor
             base.OnUnselected();
 
             position = base.GetPosition().position;
+        }
+
+        public virtual BasicPort CreatePort(string name, Orientation orientation, Direction direction, Port.Capacity capacity, Type type)
+        {
+            var port = BasicPort.Create<Edge>(orientation, direction, capacity, type);
+            port.portName = name;
+            return port;
         }
     }
 }
